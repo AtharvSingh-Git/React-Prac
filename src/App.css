@@ -1,0 +1,46 @@
+.board {
+  margin: 20px;
+  color: greenyellow;
+  font-family: Arial, sans-serif;
+}
+
+.board-row {
+  display: flex;
+  justify-content: center;
+}
+
+.square {
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  height: 100px;
+  width: 100px;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #4CAF50; /* Green */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.square:hover {
+  transform: scale(1.05); /* Increase the size slightly on hover */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a subtle shadow */
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #45a049; /* Darker Green */
+}
